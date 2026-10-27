@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = (import.meta.env.VITE_API_URL || '') + '/api';
+const baseURL = (import.meta.env.VITE_API_URL || '') + 'api';
 
 // Access token lives in memory only (never localStorage) so XSS cannot read it.
 // The long-lived refresh token is an httpOnly cookie the browser sends automatically.
